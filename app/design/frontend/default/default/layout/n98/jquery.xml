@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layoutUpdate>
+    <default>
+        <reference name="head">
+            <action method="addJs"><script>n98/jquery/jquery-1.6.2.js</script></action>
+            <action method="addJs"><script>n98/jquery/jquery.no.conflict.js</script></action>
+        </reference>
+    </default>
+</layoutUpdate>
+

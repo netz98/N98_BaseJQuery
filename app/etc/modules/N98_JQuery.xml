@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * n98 module
+ *
+ * LICENSE
+ *
+ * This source file is subject of netz98.
+ * You may be not allowed to change the sources
+ * without authorization of netz98 new media GmbH.
+ *
+ * @copyright  Copyright (c) 1999-2011 netz98 new media GmbH (http://www.netz98.de)
+ * @author netz98 new media GmbH <info@netz98.de>
+ * @category N98
+ */
+-->
+<config>
+    <modules>
+        <N98_JQuery>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Core />
+            </depends>
+        </N98_JQuery>
+    </modules>
+</config>
+
