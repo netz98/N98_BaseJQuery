@@ -33,7 +33,7 @@
 <config>
     <modules>
         <N98_JQuery>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </N98_JQuery>
     </modules>
     <frontend>
