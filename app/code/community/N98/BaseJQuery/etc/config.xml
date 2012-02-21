@@ -32,16 +32,16 @@
  -->
 <config>
     <modules>
-        <N98_JQuery>
+        <N98_BaseJQuery>
             <version>1.0.0</version>
-        </N98_JQuery>
+        </N98_BaseJQuery>
     </modules>
     <frontend>
         <layout>
             <updates>
-                <n98_jquery>
-                    <file>n98/jquery.xml</file>
-                </n98_jquery>
+                <n98_basejquery>
+                    <file>n98/base_jquery.xml</file>
+                </n98_basejquery>
             </updates>
         </layout>
     </frontend>

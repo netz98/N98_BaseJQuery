@@ -32,13 +32,13 @@
 -->
 <config>
     <modules>
-        <N98_JQuery>
+        <N98_BaseJQuery>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
                 <Mage_Core />
             </depends>
-        </N98_JQuery>
+        </N98_BaseJQuery>
     </modules>
 </config>
 
