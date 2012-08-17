@@ -1,4 +1,4 @@
-app/etc/modules/N98_BaseJQuery.xml                              app/etc/modules/N98_BaseJQuery.xml
-app/code/community/N98/BaseJQuery                               app/code/community/N98/BaseJQuery
-app/design/frontend/base/default/layout/n98/base_jquery.xml     app/design/frontend/base/default/layout/n98/base_jquery.xml
-js/n98/jquery/*                                                 js/n98/jquery/
+src/app/etc/modules/N98_BaseJQuery.xml                              app/etc/modules/N98_BaseJQuery.xml
+src/app/code/community/N98/BaseJQuery                               app/code/community/N98/BaseJQuery
+src/app/design/frontend/base/default/layout/n98/base_jquery.xml     app/design/frontend/base/default/layout/n98/base_jquery.xml
+src/js/n98/jquery/*                                                 js/n98/jquery/
