@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+* Copyright © 2011
+* netz98 new media GmbH. All rights reserved.
+*
+* The use and redistribution of this software, either compiled or uncompiled,
+* with or without modifications are permitted provided that the
+* following conditions are met:
+*
+* 1. Redistributions of compiled or uncompiled source must contain the above
+* copyright notice, this list of the conditions and the following disclaimer:
+*
+* 2. All advertising materials mentioning features or use of this software must
+* display the following acknowledgement:
+* "This product includes software developed by the netz98 new media GmbH, Mainz."
+*
+* 3. The name of the netz98 new media GmbH may not be used to endorse or promote
+* products derived from this software without specific prior written permission.
+*
+* 4. License holders of the netz98 new media GmbH are only permitted to
+* redistribute altered software, if this is licensed under conditions that contain
+* a copyleft-clause.
+*
+* This software is provided by the netz98 new media GmbH without any express or
+* implied warranties. netz98 is under no condition liable for the functional
+* capability of this software for a certain purpose or the general usability.
+* netz98 is under no condition liable for any direct or indirect damages resulting
+* from the use of the software.
+* Liability and Claims for damages of any kind are excluded.
+*/
+ -->
+<config>
+    <sections>
+        <n98_basejquery module="n98_basejquery" translate="label">
+            <tab>n98</tab>
+            <label>JQuery</label>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <sort_order>100</sort_order>
+            <groups>
+                <versions translate="label">
+                    <label>JQuery versions</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>1</sort_order>
+                    <fields>
+                        <v162 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>1.6.2</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>1</sort_order>
+                        </v162>
+                        <v172 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>1.7.2</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>2</sort_order>
+                        </v172>
+                        <v183 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>1.8.3</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>3</sort_order>
+                        </v183>
+                        <v191 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>1.9.1</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>4</sort_order>
+                        </v191>
+                        <v1101 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>1.10.1</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>5</sort_order>
+                        </v1101>
+                        <v202 translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>2.0.2</label>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>6</sort_order>
+                        </v202>
+                    </fields>
+                </versions>
+                <extras translate="label">
+                    <label>JQuery Extras</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>2</sort_order>
+                    <fields>
+                        <no_conflict translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>jQuery no Conflict</label>
+                            <comment>executes jQuery.noConflict();</comment>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>1</sort_order>
+                        </no_conflict>
+                        <migrate translate="label">
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <label>jQuery Migrate Plugin</label>
+                            <comment>includes jQuery Migrate Plugin 1.2.1</comment>
+                            <tooltip>The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later.</tooltip>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>2</sort_order>
+                        </migrate>
+                    </fields>
+                </extras>
+            </groups>
+        </n98_basejquery>
+    </sections>
+</config>

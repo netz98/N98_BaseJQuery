@@ -2,8 +2,14 @@
 <layoutUpdate>
     <default>
         <reference name="head">
-            <action method="addJs"><script>n98/jquery/jquery-1.6.2.js</script></action>
-            <action method="addJs"><script>n98/jquery/jquery.no.conflict.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v162"><script>n98/jquery/jquery-1.6.2.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v172"><script>n98/jquery/jquery-1.7.2.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v183"><script>n98/jquery/jquery-1.8.3.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v191"><script>n98/jquery/jquery-1.9.1.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v1101"><script>n98/jquery/jquery-1.10.1.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/versions/v202"><script>n98/jquery/jquery-2.0.2.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/extras/migrate"><script>n98/jquery/jquery-migrate-1.2.1.min.js</script></action>
+            <action method="addJs" ifconfig="n98_basejquery/extras/no_conflict"><script>n98/jquery/jquery.no.conflict.js</script></action>
         </reference>
     </default>
     <catalog_product_view>
